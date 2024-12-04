@@ -1,0 +1,134 @@
+/* Services Header */
+.services-header {
+    background: linear-gradient(rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.8)),
+                url('https://images.unsplash.com/photo-1487754180451-c456f719a1fc');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 76px;
+    text-align: center;
+}
+
+.services-header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Services Grid */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.service-item {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    background: var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-icon i {
+    font-size: 2rem;
+    color: white;
+}
+
+.service-item h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.service-features {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    text-align: left;
+}
+
+.service-features li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.service-features i {
+    color: var(--secondary-color);
+    margin-right: 0.5rem;
+}
+
+.service-price {
+    margin: 1.5rem 0;
+}
+
+.service-price span {
+    display: block;
+    color: #666;
+    font-size: 0.875rem;
+}
+
+.service-price h4 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+/* Price Table */
+.price-table {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.price-table th,
+.price-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.price-table thead {
+    background: var(--primary-color);
+    color: white;
+}
+
+.price-table tbody tr:hover {
+    background: var(--light-gray);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services-header h1 {
+        font-size: 2rem;
+    }
+
+    .service-item {
+        margin-bottom: 1rem;
+    }
+
+    .price-table {
+        font-size: 0.875rem;
+    }
+}

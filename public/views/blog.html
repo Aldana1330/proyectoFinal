@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - RamiMecánica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="blog.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">
+                <i class="fas fa-wrench"></i> RamiMecánica
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="blog-header">
+        <div class="container">
+            <h1>RamiMecánica Blog</h1>
+            <p>Consejos, noticias y guías sobre el mundo automotriz</p>
+            <div class="category-nav">
+                <a href="#mantenimiento" class="category-link">Mantenimiento</a>
+                <a href="#consejos" class="category-link">Consejos Prácticos</a>
+                <a href="#novedades" class="category-link">Novedades</a>
+                <a href="#reparaciones" class="category-link">Reparaciones</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            <!-- Contenido Principal -->
+            <div class="col-lg-8">
+                <!-- Artículos de Mantenimiento -->
+                <section class="blog-section" id="mantenimiento">
+                    <h2 class="section-title">Mantenimiento</h2>
+                    
+                    <article class="blog-post">
+                        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7" alt="Cambio de aceite">
+                        <div class="blog-post-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> 15 Mar 2024</span>
+                                <span><i class="far fa-user"></i>Ramiro Amaya</span>
+                                <span class="category-tag">Mantenimiento</span>
+                            </div>
+                            <div>
+                                <h3>Guía Completa: Cambio de Aceite</h3>
+                                <p>El cambio de aceite es esencial para prolongar la vida útil del motor y mantener un rendimiento óptimo. Aquí encontrarás todo lo que necesitas saber:</p>
+                                <ul>
+                                    <li><strong>Cuándo cambiar el aceite de tu vehículo:</strong> Depende del tipo de aceite (sintético, semi-sintético o mineral) y del uso del vehículo. Generalmente, cada 5,000 a 10,000 km o según lo indique el manual.</li>
+                                    <li><strong>Cómo elegir el aceite correcto:</strong> Consulta las especificaciones del fabricante. Factores como la viscosidad (5W-30, 10W-40) y el tipo de motor (gasolina o diésel) son determinantes.</li>
+                                    <li><strong>Proceso paso a paso del cambio de aceite:</strong> Drena el aceite viejo, cambia el filtro de aceite, llena con el nuevo aceite y verifica el nivel usando la varilla medidora.</li>
+                                    <li><strong>Consejos para maximizar la vida útil del motor:</strong> Usa siempre filtros de calidad, no excedas los intervalos recomendados y evita sobrellenar el aceite.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-post">
+                        <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3" alt="Filtros del coche">
+                        <div class="blog-post-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> 10 Mar 2024</span>
+                                <span><i class="far fa-user"></i>Ramiro Amaya</span>
+                                <span class="category-tag">Mantenimiento</span>
+                            </div>
+                            <div>
+                                <h3>Mantenimiento de Filtros</h3>
+                                <p>Los filtros aseguran que el motor y otros sistemas funcionen sin problemas. Aprende sobre su importancia:</p>
+                                <ul>
+                                    <li><strong>Tipos de filtros en tu vehículo:</strong> Filtro de aire, de aceite, de combustible y de habitáculo. Cada uno tiene un papel clave en el rendimiento y la seguridad.</li>
+                                    <li><strong>Frecuencia de cambio recomendada:</strong> Filtro de aire: cada 15,000-30,000 km, filtro de aceite: con cada cambio de aceite, filtro de combustible: cada 50,000-60,000 km.</li>
+                                    <li><strong>Señales de que necesitas cambiar los filtros:</strong> Reducción de potencia, aumento en el consumo de combustible y ruidos inusuales.</li>
+                                    <li><strong>Consejos de mantenimiento preventivo:</strong> Inspecciona regularmente y limpia los filtros de aire si son reutilizables.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+                <!-- Consejos Prácticos -->
+                <section class="blog-section" id="consejos">
+                    <h2 class="section-title">Consejos Prácticos</h2>
+                    
+                    <article class="blog-post">
+                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" alt="Ahorro de combustible">
+                        <div class="blog-post-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> 8 Mar 2024</span>
+                                <span><i class="far fa-user"></i>Ramiro Amaya</span>
+                                <span class="category-tag">Consejos Prácticos</span>
+                            </div>
+                            <h3>10 Tips Infalibles para Ahorrar Combustible</h3>  
+                            <p>Aprende a optimizar el consumo de combustible de tu vehículo con estos consejos prácticos:</p>  
+                            <ul>  
+                                <li>Técnicas de conducción eficiente</li>  
+                                <li>Mantenimiento para mejor rendimiento</li>  
+                                <li>Hábitos que aumentan el consumo</li>  
+                                <li>Planificación de rutas eficientes</li>  
+                                <li>Evita el exceso de peso en el vehículo</li>  
+                                <li>Apaga el motor en paradas prolongadas</li>  
+                                <li>Mantén los neumáticos con la presión adecuada</li>  
+                                <li>Usa el aire acondicionado con moderación</li>  
+                                <li>Evita aceleraciones y frenadas bruscas</li>  
+                                <li>Utiliza combustibles de calidad adecuada</li>  
+                            </ul> 
+                        </div>
+                    </article>
+                </section>
+
+                <!-- Novedades -->
+                <section class="blog-section" id="novedades">
+                    <h2 class="section-title">Novedades</h2>
+                    
+                    <article class="blog-post">
+                        <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7" alt="Coche eléctrico">
+                        <div class="blog-post-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> 5 Mar 2024</span>
+                                <span><i class="far fa-user"></i>Ramiro Amaya</span>
+                                <span class="category-tag">Novedades</span>
+                            </div>
+                            <div>
+                                <h3>El Futuro de los Coches Eléctricos</h3>
+                                <p>Los vehículos eléctricos están revolucionando la industria automotriz. Descubre qué viene:</p>
+                                <ul>
+                                    <li><strong>Nuevas tecnologías de baterías:</strong> Baterías de estado sólido, con mayor capacidad y tiempos de carga más cortos.</li>
+                                    <li><strong>Infraestructura de carga:</strong> Crecimiento de estaciones de carga rápida y carga inalámbrica.</li>
+                                    <li><strong>Modelos más esperados:</strong> Vehículos como el Tesla Cybertruck, Rivian R1T y nuevos modelos económicos de fabricantes tradicionales.</li>
+                                    <li><strong>Ventajas y consideraciones:</strong> Menor mantenimiento, cero emisiones, pero con desafíos en la autonomía y costo inicial.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-post">
+                        <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341" alt="Sistemas de seguridad">
+                        <div class="blog-post-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> 3 Mar 2024</span>
+                                <span><i class="far fa-user"></i>Ramiro Amaya</span>
+                                <span class="category-tag">Novedades</span>
+                            </div>
+                            <div>
+                                <h3>Sistemas de Seguridad Modernos</h3>
+                                <p>Los avances en seguridad automotriz están salvando vidas. Explora lo más destacado:</p>
+                                <ul>
+                                    <li><strong>Sistemas de asistencia al conductor:</strong> Frenado automático, mantenimiento de carril y control de crucero adaptativo.</li>
+                                    <li><strong>Tecnologías de prevención de accidentes:</strong> Detección de peatones, cámaras 360° y sistemas de monitoreo de puntos ciegos.</li>
+                                    <li><strong>Conectividad y monitoreo:</strong> Vehículos conectados con alertas en tiempo real para posibles fallos y accidentes.</li>
+                                    <li><strong>Futuras innovaciones:</strong> Intercomunicación entre vehículos y ciudades inteligentes para prevenir accidentes.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-post">
+                        <img src="https://images.unsplash.com/photo-1557411732-1797a9171fcf" alt="Tecnología automotriz">
+                        <div class="blog-post-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> 1 Mar 2024</span>
+                                <span><i class="far fa-user"></i>Ramiro Amaya</span>
+                                <span class="category-tag">Novedades</span>
+                            </div>
+                            <div>
+                                <h3>Inteligencia Artificial en Automóviles</h3>
+                                <p>La IA está transformando cómo conducimos y mantenemos nuestros vehículos:</p>
+                                <ul>
+                                    <li><strong>Sistemas de conducción autónoma:</strong> Nivel 3 y 4 en desarrollo, permitiendo una conducción casi completamente autónoma.</li>
+                                    <li><strong>Asistentes virtuales:</strong> Integración con asistentes como Alexa y Google para controlar funciones del vehículo.</li>
+                                    <li><strong>Mantenimiento predictivo:</strong> IA que predice fallos antes de que ocurran y recomienda servicios preventivos.</li>
+                                    <li><strong>Experiencia de usuario mejorada:</strong> Reconocimiento facial, ajuste automático de preferencias y sistemas de entretenimiento personalizados.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+                <!-- Reparaciones -->
+                <section class="blog-section" id="reparaciones">
+                    <h2 class="section-title">Reparaciones</h2>
+                    
+                    <article class="blog-post">
+                        <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc" alt="Diagnóstico de problemas">
+                        <div class="blog-post-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> 28 Feb 2024</span>
+                                <span><i class="far fa-user"></i>Ramiro Amaya</span>
+                                <span class="category-tag">Reparaciones</span>
+                            </div>
+                            <div>
+                                <h3>Diagnóstico de Problemas Comunes</h3>
+                                <p>Detectar problemas a tiempo puede ahorrarte grandes gastos. Aquí te enseñamos cómo hacerlo:</p>
+                                <ul>
+                                    <li><strong>Interpretación de ruidos extraños:</strong> Golpeteos, silbidos o chillidos pueden indicar problemas con el motor, frenos o correas.</li>
+                                    <li><strong>Problemas de arranque:</strong> Batería débil, bujías desgastadas o problemas en el motor de arranque.</li>
+                                    <li><strong>Diagnóstico básico de motor:</strong> Revisión de los niveles de fluidos, estado de bujías y mangueras.</li>
+                                    <li><strong>Cuándo acudir al mecánico:</strong> Si notas pérdida de potencia, consumo excesivo de combustible o luces de advertencia encendidas.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-post">
+                        <img src="https://images.unsplash.com/photo-1504222490345-c075b6008014" alt="Reparación de frenos">
+                        <div class="blog-post-content">
+                            <div class="post-meta">
+                                <span><i class="far fa-calendar"></i> 25 Feb 2024</span>
+                                <span><i class="far fa-user"></i>Ramiro Amaya</span>
+                                <span class="category-tag">Reparaciones</span>
+                            </div>
+                            <div>
+                                <h3>Guía de Mantenimiento de Frenos</h3>
+                                <p>Los frenos son vitales para la seguridad. Asegúrate de que estén en perfecto estado:</p>
+                                <ul>
+                                    <li><strong>Señales de desgaste:</strong> Ruidos chirriantes, vibraciones al frenar o un pedal de freno blando.</li>
+                                    <li><strong>Tipos de pastillas de freno:</strong> Orgánicas, semimetálicas y cerámicas, cada una con ventajas específicas.</li>
+                                    <li><strong>Mantenimiento preventivo:</strong> Revisa el nivel de líquido de frenos y evita sobrecalentarlos con frenadas bruscas.</li>
+                                    <li><strong>Problemas comunes y soluciones:</strong> Pastillas desgastadas, discos deformados o fugas en el sistema hidráulico.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </div>
+
+            <!-- Barra lateral -->
+            <div class="col-lg-4">
+                <div class="sidebar">
+                    <div class="sidebar-section">
+                        <h3>Categorías</h3>
+                        <ul class="category-list">
+                            <li><a href="#mantenimiento">Mantenimiento (2)</a></li>
+                            <li><a href="#consejos">Consejos Prácticos (1)</a></li>
+                            <li><a href="#novedades">Novedades (3)</a></li>
+                            <li><a href="#reparaciones">Reparaciones (2)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Información de la empresa -->
+                <div class="col-md-4 mb-3">
+                    <h4 class="text-uppercase">RamiMecánica</h4>
+                    <p>Tu taller de confianza desde <strong>2023</strong>. Comprometidos con la excelencia en cada servicio.</p>
+                </div>
+    
+                <!-- Información de contacto -->
+                <div class="col-md-4 mb-3">
+                    <h4 class="text-uppercase">Contacto</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-phone"></i> <a href="tel:+541132082418" class="text-light">11-3208-2418</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@ramimecanica.com" class="text-light">info@ramimecanica.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Almirante Brown 802, General Rodríguez, Argentina</li>
+                    </ul>
+                </div>
+    
+                <!-- Redes sociales -->
+                <div class="col-md-4">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/5491132082418"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="text-center pt-3 border-top border-light">
+                <p class="mb-0">&copy; 2024 RamiMecánica. Todos los derechos reservados.</p>
+                <p class="small">Diseñado con <i class="fas fa-heart text-danger"></i> por RamiMecánica Team</p>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
